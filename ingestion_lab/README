@@ -1,0 +1,12 @@
+ python ingest.py
+usage: Demo on the single/multiple threads, variable batch sizes and grouping by measure_name
+       [-h] --database-name DATABASENAME --table-name TABLENAME --endpoint
+       ENDPOINT [--concurrency CONCURRENCY] [--host-scale HOSTSCALE]
+       [--profile PROFILE] [--batch-size BATCH_SIZE]
+       [--group-by-series {True,False}]
+Demo on the single/multiple threads, variable batch sizes and grouping by measure_name: error: the following arguments are required: --database-name/-d, --table-name/-t, --endpoint/-e
+
+Note: --endpoint  here is region where yyou want to create TimeStream Database and Tables.
+      This script for demo purpose only.
+
+
